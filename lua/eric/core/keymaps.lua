@@ -10,6 +10,13 @@ local keymap = vim.keymap -- for conciseness
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
+-- center cursor after going up or down
+keymap.set("n", "<C-d>", "<C-d>zz")
+keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- keep yank register
+keymap.set("x", "<leader>p", '"_dP')
+
 -- delete single character without copying into register
 keymap.set("n", "x", '"_x')
 

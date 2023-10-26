@@ -122,6 +122,8 @@ return packer.startup(function(use)
 		ft = { "markdown" },
 	})
 
+	use({ "stevearc/dressing.nvim" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
