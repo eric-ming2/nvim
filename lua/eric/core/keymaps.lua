@@ -64,3 +64,9 @@ keymap.set("n", "<leader>md", ":MarkdownPreview<CR>")
 keymap.set("n", "<leader>hp", ":Gitsigns preview_hunk<CR>") -- hunk preview
 keymap.set("n", "<leader>hd", ":Gitsigns reset_hunk<CR>") -- hunk delete
 keymap.set("n", "<leader>gb", ":Gitsigns toggle_current_line_blame<CR>") -- toggle git blame
+
+---------------------
+-- Installed Keymaps
+---------------------
+--
+-- "gcc" comments code
