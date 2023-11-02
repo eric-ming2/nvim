@@ -120,6 +120,8 @@ return packer.startup(function(use)
 
 	use({ "stevearc/dressing.nvim" })
 
+	use({ "fatih/vim-go" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end

@@ -227,6 +227,11 @@ _G.packer_plugins = {
     path = "/Users/ericming/.local/share/nvim/site/pack/packer/start/typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
   },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/Users/ericming/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/Users/ericming/.local/share/nvim/site/pack/packer/start/vim-maximizer",
