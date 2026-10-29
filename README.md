@@ -1,4 +1,4 @@
-# Eric's Neovim and Tmux Setup
+# Eric's Neovim, Tmux and AeroSpace Setup
 
 This setup is based on https://github.com/josean-dev/dev-environment-files/tree/packer-nvim-setup
 
@@ -13,6 +13,8 @@ brew install tmux
 brew install neovim
 brew install ripgrep
 cp .tmux.conf ~
+brew install --cask nikitabobko/tap/aerospace
+cp .aerospace.toml ~
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
